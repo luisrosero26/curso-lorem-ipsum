@@ -1,0 +1,23 @@
+completion_text: |-
+  <p><span style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies fringilla enim, a maximus lorem consectetur id. Vestibulum eu orci quam. Nullam tincidunt, urna in mollis varius, orci mi pretium sapien, a rutrum elit sem ac nibh. Vivamus congue, dolor et dictum ultrices, tellus augue iaculis est, ac efficitur justo leo non magna. Morbi ultricies nisi a eros malesuada, ac ultrices tortor lobortis. Proin efficitur imperdiet faucibus. Vestibulum dictum pretium mollis. Vivamus pretium at mi vulputate lacinia. Aliquam tellus mauris, pretium a iaculis quis, imperdiet sit amet mauris. Proin facilisis libero ut ex blandit, in ultrices ipsum molestie. Sed eu sapien tortor.</span><br></p>
+description: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies fringilla enim, a maximus lorem consectetur id. Vestibulum eu orci quam. Nullam tincidunt, urna in mollis varius, orci mi pretium sapien, a rutrum elit sem ac nibh. Vivamus congue, dolor et dictum ultrices, tellus augue iaculis est, ac efficitur justo leo non magna. Morbi ultricies nisi a eros malesuada, ac ultrices tortor lobortis. Proin efficitur imperdiet faucibus. Vestibulum dictum pretium mollis. Vivamus pretium at mi vulputate lacinia. Aliquam tellus mauris, pretium a iaculis quis, imperdiet sit amet mauris. Proin facilisis libero ut ex blandit, in ultrices ipsum molestie. Sed eu sapien tortor.
+next_flow_id: quiz14
+next_flow_title: 'Ir al Quiz #1'
+pages:
+- content: |-
+    <p><span style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies fringilla enim, a maximus lorem consectetur id. Vestibulum eu orci quam. Nullam tincidunt, urna in mollis varius, orci mi pretium sapien, a rutrum elit sem ac nibh. Vivamus congue, dolor et dictum ultrices, tellus augue iaculis est, ac efficitur justo leo non magna. Morbi ultricies nisi a eros malesuada, ac ultrices tortor lobortis. Proin efficitur imperdiet faucibus. Vestibulum dictum pretium mollis. Vivamus pretium at mi vulputate lacinia. Aliquam tellus mauris, pretium a iaculis quis, imperdiet sit amet mauris. Proin facilisis libero ut ex blandit, in ultrices ipsum molestie. Sed eu sapien tortor.</span><br></p>
+  id: intro
+  title: Inicio
+  type: Page
+- content: |-
+    <p><span style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies fringilla enim, a maximus lorem consectetur id. Vestibulum eu orci quam. Nullam tincidunt, urna in mollis varius, orci mi pretium sapien, a rutrum elit sem ac nibh. Vivamus congue, dolor et dictum ultrices, tellus augue iaculis est, ac efficitur justo leo non magna. Morbi ultricies nisi a eros malesuada, ac ultrices tortor lobortis. Proin efficitur imperdiet faucibus. Vestibulum dictum pretium mollis. Vivamus pretium at mi vulputate lacinia. Aliquam tellus mauris, pretium a iaculis quis, imperdiet sit amet mauris. Proin facilisis libero ut ex blandit, in ultrices ipsum molestie. Sed eu sapien tortor.</span><br></p>
+  id: page36
+  title: Contendio flujo 1
+  type: Page
+rules:
+  access:
+  - if_has_role: [ta, student, instructor]
+    permissions: [view]
+  grade_identifier: null
+title: 'Flujo # 1'
